@@ -1,0 +1,38 @@
+.Button{
+  padding:11px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.Button, .Button--primary{
+  background-color: var(--primary);
+}
+
+.Button--primary:hover{
+  background-color: var(--primary-hover);
+}
+
+
+
+@media(max-width:900px){
+  .Button{
+    padding:10px 7.5px; 
+    font-size: 14px;
+    
+  }
+  
+}
+
+@media(max-width:700px){
+  .Button{
+    padding:9px 7.5px; 
+    font-size: 13px;
+    
+  }
+  
+}
+

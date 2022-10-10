@@ -1,0 +1,18 @@
+.icon-item{
+  color:var(--lightGrey);
+  cursor: pointer;
+  transition-duration: 400ms;
+  width: 50px;
+  height: 50px;
+  
+}
+
+.icon-item:hover{
+  color:var(--primary);
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+}

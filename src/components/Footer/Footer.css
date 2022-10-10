@@ -1,0 +1,18 @@
+.Footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top:100px;
+  position: relative;
+  border-top: 1px solid rgb(238, 237, 237);
+}
+
+
+.copyright{
+  display: block;
+  margin-top: 25px;
+  color: var(--lightGrey);
+}
